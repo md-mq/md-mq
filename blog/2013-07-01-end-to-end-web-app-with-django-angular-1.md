@@ -18,17 +18,17 @@ First thing to do is to prepare the environment, I suppose that most of you use 
 ```bash
 >  virtualenv django-angular
 >  cd django-angular
->  source bin/activate  
+>  source bin/activate
 ```
 
 Clone this repos :
 
-[https://github.com/mmourafiq/django-angular-blog](https://github.com/mmourafiq/django-angular-blog)
+[https://github.com/md-mq/django-angular-blog](https://github.com/md-mq/django-angular-blog)
 
 Checkout to part1 branch.
 
 ```bash
->  git clone https://github.com/mmourafiq/django-angular-blog
+>  git clone https://github.com/md-mq/django-angular-blog
 >  cd django-angular-blog
 >  git checkout part1
 ```

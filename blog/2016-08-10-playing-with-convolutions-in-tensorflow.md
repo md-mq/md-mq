@@ -6,7 +6,7 @@ cover_image: images/blog/tensorflow.jpg
 cover_image_caption: ""
 tags: [deep-learning, python, tensorflow]
 ---
-In this post we will try to develop a practical intuition about convolutions and visualize different steps used in convolutional neural network architectures. The code used for this tutorial can be found [here](https://github.com/mmourafiq/tensorflow-convolution-models).
+In this post we will try to develop a practical intuition about convolutions and visualize different steps used in convolutional neural network architectures. The code used for this tutorial can be found [here](https://github.com/md-mq/tensorflow-convolution-models).
 
 This tutorial does not cover back propagation, sparse connectivity, shared weights and other theoritical aspects that are already covered in other courses and tutorials. Instead it focuses on giving a practical intuition on how to use tensorflow to build a convolutional model.
 
@@ -308,4 +308,4 @@ Here's also AlexNet's model graph
 ![AlexNet model graph](/images/blog/alexnet_model.png)
 
 
-The full code used in this tutorial can be found in this github [repo](https://github.com/mmourafiq/tensorflow-convolution-models)
+The full code used in this tutorial can be found in this github [repo](https://github.com/md-mq/tensorflow-convolution-models)

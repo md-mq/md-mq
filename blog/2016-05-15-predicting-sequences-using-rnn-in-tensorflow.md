@@ -6,7 +6,7 @@ cover_image: images/blog/tensorflow.jpg
 cover_image_caption: ""
 tags: [deep-learning, python, tensorflow]
 ---
-This post tries to demonstrates how to approximate a sequence of vectors using a recurrent neural networks, in particular I will be using the LSTM architecture, The complete code used for this post could be found [here](https://github.com/mmourafiq/tensorflow-lstm-regression). Most of the examples I found in the internet apply the LSTM architecture to natural language processing problems, and I couldn't find an example where this architecture could be used to predict continuous values.
+This post tries to demonstrates how to approximate a sequence of vectors using a recurrent neural networks, in particular I will be using the LSTM architecture, The complete code used for this post could be found [here](https://github.com/md-mq/tensorflow-lstm-regression). Most of the examples I found in the internet apply the LSTM architecture to natural language processing problems, and I couldn't find an example where this architecture could be used to predict continuous values.
 
 ----
 
@@ -214,7 +214,7 @@ Now we can create a regressor based on our our model
 ```python
 regressor = learn.TensorFlowEstimator(model_fn=lstm_model(TIMESTEPS, RNN_LAYERS, DENSE_LAYERS),
                                       n_classes=0,
-                                      verbose=1,  
+                                      verbose=1,
                                       steps=TRAINING_STEPS,
                                       optimizer='Adagrad',
                                       learning_rate=0.03,
@@ -322,7 +322,7 @@ print("Error: {}".format(mse))
 
  * predicted x*sin function
 
-![sin-function](/images/blog/predicted-xsin.png)  
+![sin-function](/images/blog/predicted-xsin.png)
 
 ### model loss
 

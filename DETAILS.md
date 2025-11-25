@@ -4,8 +4,8 @@ Engineer, startups, philosophy, music, coffee ...\
 Tinkering @ Popsy, Polyaxon ...\
 Alum @ YCombinator, BNP, EIB, Kayak, Dubsmash/Reddit ...
 
-- [Github](https://github.com/mmourafiq)
-- [Twitter](https://twitter.com/mmourafiq)
+- [Github](https://github.com/md-mq)
+- [Twitter](https://twitter.com/md__mq)
 
 ### What I do
 
